@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lab4.ResultsDialogController">
+   <children>
+      <TextArea fx:id="resultsArea" editable="false" layoutX="25.0" layoutY="16.0" prefHeight="134.0" prefWidth="250.0" />
+      <Button fx:id="okButton" layoutX="177.0" layoutY="162.0" mnemonicParsing="false" onAction="#handleOK" text="OK" />
+      <Button fx:id="cancelButton" layoutX="223.0" layoutY="162.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
+   </children>
+</Pane>
