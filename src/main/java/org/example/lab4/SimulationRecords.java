@@ -70,4 +70,8 @@ public class SimulationRecords {
         usedIds.clear();
         birthTimes.clear();
     }
+    
+    public void addUsedId(int id) {
+        usedIds.add(id);
+    }
 }
